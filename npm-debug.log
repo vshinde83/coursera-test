@@ -1,0 +1,259 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'n' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose cache add [ 'n', null ]
+6 verbose cache add name=undefined spec="n" args=["n",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'n',
+7 verbose parsed url   path: 'n',
+7 verbose parsed url   href: 'n' }
+8 silly lockFile d1854cae-n n
+9 verbose lock n C:\Users\vs26364\AppData\Roaming\npm-cache\d1854cae-n.lock
+10 silly lockFile d1854cae-n n
+11 silly lockFile d1854cae-n n
+12 verbose addNamed [ 'n', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 6b58d7dc-n n@
+15 verbose lock n@ C:\Users\vs26364\AppData\Roaming\npm-cache\6b58d7dc-n.lock
+16 silly addNameRange { name: 'n', range: '*', hasData: false }
+17 verbose url raw n
+18 verbose url resolving [ 'https://registry.npmjs.org/', './n' ]
+19 verbose url resolved https://registry.npmjs.org/n
+20 info trying registry request attempt 1 at 18:13:03
+21 http GET https://registry.npmjs.org/n
+22 http 200 https://registry.npmjs.org/n
+23 silly registry.get cb [ 200,
+23 silly registry.get   { date: 'Sat, 25 Apr 2020 12:43:04 GMT',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'content-length': '167718',
+23 silly registry.get     connection: 'keep-alive',
+23 silly registry.get     'set-cookie': [ '__cfduid=df4da1a95d45a0e22b106e2b372277f4d1587818584; expires=Mon, 25-May-20 12:43:04 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+23 silly registry.get     'cf-ray': '589825ca0dcb5064-BOM',
+23 silly registry.get     'accept-ranges': 'bytes',
+23 silly registry.get     age: '5052',
+23 silly registry.get     'cache-control': 'public, max-age=300',
+23 silly registry.get     etag: '"6d55505ecd7288103ff31dfb3458227a"',
+23 silly registry.get     'last-modified': 'Sat, 11 Apr 2020 06:04:19 GMT',
+23 silly registry.get     vary: 'accept-encoding, accept',
+23 silly registry.get     'cf-cache-status': 'HIT',
+23 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+23 silly registry.get     server: 'cloudflare',
+23 silly registry.get     'cf-request-id': '0252f5f248000050649d9c3200000001' } ]
+24 silly addNameRange number 2 { name: 'n', range: '*', hasData: true }
+25 silly addNameRange versions [ 'n',
+25 silly addNameRange   [ '0.0.1',
+25 silly addNameRange     '0.0.2',
+25 silly addNameRange     '0.0.3',
+25 silly addNameRange     '0.0.4',
+25 silly addNameRange     '0.1.0',
+25 silly addNameRange     '0.1.1',
+25 silly addNameRange     '0.1.2',
+25 silly addNameRange     '0.2.0',
+25 silly addNameRange     '0.2.1',
+25 silly addNameRange     '0.2.2',
+25 silly addNameRange     '0.3.0',
+25 silly addNameRange     '0.4.0',
+25 silly addNameRange     '0.4.1',
+25 silly addNameRange     '0.4.2',
+25 silly addNameRange     '0.5.0',
+25 silly addNameRange     '0.5.1',
+25 silly addNameRange     '0.5.2',
+25 silly addNameRange     '0.5.3',
+25 silly addNameRange     '0.5.4',
+25 silly addNameRange     '0.6.0',
+25 silly addNameRange     '0.6.1',
+25 silly addNameRange     '0.7.0',
+25 silly addNameRange     '0.7.1',
+25 silly addNameRange     '0.7.2',
+25 silly addNameRange     '0.7.3',
+25 silly addNameRange     '0.8.0',
+25 silly addNameRange     '0.8.1',
+25 silly addNameRange     '0.8.2',
+25 silly addNameRange     '0.9.0',
+25 silly addNameRange     '0.9.1',
+25 silly addNameRange     '0.9.2',
+25 silly addNameRange     '0.9.3',
+25 silly addNameRange     '1.0.0',
+25 silly addNameRange     '1.1.0',
+25 silly addNameRange     '1.2.1',
+25 silly addNameRange     '1.2.2',
+25 silly addNameRange     '1.2.3',
+25 silly addNameRange     '1.2.4',
+25 silly addNameRange     '1.2.5',
+25 silly addNameRange     '1.2.6',
+25 silly addNameRange     '1.2.7',
+25 silly addNameRange     '1.2.8',
+25 silly addNameRange     '1.2.9',
+25 silly addNameRange     '1.2.11',
+25 silly addNameRange     '1.2.13',
+25 silly addNameRange     '1.2.14',
+25 silly addNameRange     '1.3.0',
+25 silly addNameRange     '1.4.0',
+25 silly addNameRange     '2.0.0',
+25 silly addNameRange     '1.4.1',
+25 silly addNameRange     '2.0.1',
+25 silly addNameRange     '1.4.2',
+25 silly addNameRange     '2.0.2',
+25 silly addNameRange     '2.1.0',
+25 silly addNameRange     '2.1.1',
+25 silly addNameRange     '2.1.2',
+25 silly addNameRange     '2.1.3',
+25 silly addNameRange     '2.1.4',
+25 silly addNameRange     '2.1.5',
+25 silly addNameRange     '2.1.6',
+25 silly addNameRange     '2.1.7',
+25 silly addNameRange     '2.1.8',
+25 silly addNameRange     '2.1.9',
+25 silly addNameRange     '2.1.10',
+25 silly addNameRange     '2.1.11',
+25 silly addNameRange     '2.1.12',
+25 silly addNameRange     '3.0.0',
+25 silly addNameRange     '3.0.1',
+25 silly addNameRange     '3.0.2',
+25 silly addNameRange     '4.0.0',
+25 silly addNameRange     '4.1.0',
+25 silly addNameRange     '5.0.0-next.0',
+25 silly addNameRange     '5.0.0',
+25 silly addNameRange     '5.0.1',
+25 silly addNameRange     '5.0.2',
+25 silly addNameRange     '6.0.0-0',
+25 silly addNameRange     '6.0.0-1',
+25 silly addNameRange     '6.0.0',
+25 silly addNameRange     '6.0.1',
+25 silly addNameRange     '6.1.0',
+25 silly addNameRange     '6.1.1',
+25 silly addNameRange     '6.1.2',
+25 silly addNameRange     '6.1.3',
+25 silly addNameRange     '6.2.0',
+25 silly addNameRange     '6.3.0',
+25 silly addNameRange     '6.3.1',
+25 silly addNameRange     '6.4.0',
+25 silly addNameRange     '6.5.0',
+25 silly addNameRange     '6.5.1' ] ]
+26 verbose addNamed [ 'n', '6.5.1' ]
+27 verbose addNamed [ '6.5.1', '6.5.1' ]
+28 silly lockFile 20e7e262-n-6-5-1 n@6.5.1
+29 verbose lock n@6.5.1 C:\Users\vs26364\AppData\Roaming\npm-cache\20e7e262-n-6-5-1.lock
+30 silly lockFile 51d7c0c7-registry-npmjs-org-n-n-6-5-1-tgz https://registry.npmjs.org/n/-/n-6.5.1.tgz
+31 verbose lock https://registry.npmjs.org/n/-/n-6.5.1.tgz C:\Users\vs26364\AppData\Roaming\npm-cache\51d7c0c7-registry-npmjs-org-n-n-6-5-1-tgz.lock
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/n/-/n-6.5.1.tgz',
+32 verbose addRemoteTarball   '57e736d39994e1f5cc49f09fbd143d1e7d82118d' ]
+33 info retry fetch attempt 1 at 18:13:03
+34 verbose fetch to= C:\Users\vs26364\AppData\Local\Temp\npm-14920-ZKjUXH7u\1587818583561-0.6880809259600937\tmp.tgz
+35 http GET https://registry.npmjs.org/n/-/n-6.5.1.tgz
+36 http 200 https://registry.npmjs.org/n/-/n-6.5.1.tgz
+37 verbose tar unpack C:\Users\vs26364\AppData\Local\Temp\npm-14920-ZKjUXH7u\1587818583561-0.6880809259600937\tmp.tgz
+38 silly lockFile e463cc45-83561-0-6880809259600937-package tar://C:\Users\vs26364\AppData\Local\Temp\npm-14920-ZKjUXH7u\1587818583561-0.6880809259600937\package
+39 verbose lock tar://C:\Users\vs26364\AppData\Local\Temp\npm-14920-ZKjUXH7u\1587818583561-0.6880809259600937\package C:\Users\vs26364\AppData\Roaming\npm-cache\e463cc45-83561-0-6880809259600937-package.lock
+40 silly lockFile 18e14b23-83561-0-6880809259600937-tmp-tgz tar://C:\Users\vs26364\AppData\Local\Temp\npm-14920-ZKjUXH7u\1587818583561-0.6880809259600937\tmp.tgz
+41 verbose lock tar://C:\Users\vs26364\AppData\Local\Temp\npm-14920-ZKjUXH7u\1587818583561-0.6880809259600937\tmp.tgz C:\Users\vs26364\AppData\Roaming\npm-cache\18e14b23-83561-0-6880809259600937-tmp-tgz.lock
+42 silly gunzTarPerm modes [ '755', '644' ]
+43 silly gunzTarPerm extractEntry LICENSE
+44 silly gunzTarPerm extractEntry bin/n
+45 silly gunzTarPerm extractEntry package.json
+46 silly gunzTarPerm extractEntry CHANGELOG.md
+47 silly gunzTarPerm extractEntry README.md
+48 silly lockFile e463cc45-83561-0-6880809259600937-package tar://C:\Users\vs26364\AppData\Local\Temp\npm-14920-ZKjUXH7u\1587818583561-0.6880809259600937\package
+49 silly lockFile e463cc45-83561-0-6880809259600937-package tar://C:\Users\vs26364\AppData\Local\Temp\npm-14920-ZKjUXH7u\1587818583561-0.6880809259600937\package
+50 silly lockFile 18e14b23-83561-0-6880809259600937-tmp-tgz tar://C:\Users\vs26364\AppData\Local\Temp\npm-14920-ZKjUXH7u\1587818583561-0.6880809259600937\tmp.tgz
+51 silly lockFile 18e14b23-83561-0-6880809259600937-tmp-tgz tar://C:\Users\vs26364\AppData\Local\Temp\npm-14920-ZKjUXH7u\1587818583561-0.6880809259600937\tmp.tgz
+52 verbose tar pack [ 'C:\\Users\\vs26364\\AppData\\Roaming\\npm-cache\\n\\6.5.1\\package.tgz',
+52 verbose tar pack   'C:\\Users\\vs26364\\AppData\\Local\\Temp\\npm-14920-ZKjUXH7u\\1587818583561-0.6880809259600937\\package' ]
+53 verbose tarball C:\Users\vs26364\AppData\Roaming\npm-cache\n\6.5.1\package.tgz
+54 verbose folder C:\Users\vs26364\AppData\Local\Temp\npm-14920-ZKjUXH7u\1587818583561-0.6880809259600937\package
+55 silly lockFile e463cc45-83561-0-6880809259600937-package tar://C:\Users\vs26364\AppData\Local\Temp\npm-14920-ZKjUXH7u\1587818583561-0.6880809259600937\package
+56 verbose lock tar://C:\Users\vs26364\AppData\Local\Temp\npm-14920-ZKjUXH7u\1587818583561-0.6880809259600937\package C:\Users\vs26364\AppData\Roaming\npm-cache\e463cc45-83561-0-6880809259600937-package.lock
+57 silly lockFile f0f227ef-ng-npm-cache-n-6-5-1-package-tgz tar://C:\Users\vs26364\AppData\Roaming\npm-cache\n\6.5.1\package.tgz
+58 verbose lock tar://C:\Users\vs26364\AppData\Roaming\npm-cache\n\6.5.1\package.tgz C:\Users\vs26364\AppData\Roaming\npm-cache\f0f227ef-ng-npm-cache-n-6-5-1-package-tgz.lock
+59 silly lockFile e463cc45-83561-0-6880809259600937-package tar://C:\Users\vs26364\AppData\Local\Temp\npm-14920-ZKjUXH7u\1587818583561-0.6880809259600937\package
+60 silly lockFile e463cc45-83561-0-6880809259600937-package tar://C:\Users\vs26364\AppData\Local\Temp\npm-14920-ZKjUXH7u\1587818583561-0.6880809259600937\package
+61 silly lockFile f0f227ef-ng-npm-cache-n-6-5-1-package-tgz tar://C:\Users\vs26364\AppData\Roaming\npm-cache\n\6.5.1\package.tgz
+62 silly lockFile f0f227ef-ng-npm-cache-n-6-5-1-package-tgz tar://C:\Users\vs26364\AppData\Roaming\npm-cache\n\6.5.1\package.tgz
+63 silly lockFile 3cfac81a-oaming-npm-cache-n-6-5-1-package C:\Users\vs26364\AppData\Roaming\npm-cache\n\6.5.1\package
+64 verbose lock C:\Users\vs26364\AppData\Roaming\npm-cache\n\6.5.1\package C:\Users\vs26364\AppData\Roaming\npm-cache\3cfac81a-oaming-npm-cache-n-6-5-1-package.lock
+65 silly lockFile 3cfac81a-oaming-npm-cache-n-6-5-1-package C:\Users\vs26364\AppData\Roaming\npm-cache\n\6.5.1\package
+66 silly lockFile 3cfac81a-oaming-npm-cache-n-6-5-1-package C:\Users\vs26364\AppData\Roaming\npm-cache\n\6.5.1\package
+67 verbose tar unpack C:\Users\vs26364\AppData\Roaming\npm-cache\n\6.5.1\package.tgz
+68 silly lockFile 0b1bc6f6-oaming-npm-cache-n-6-5-1-package tar://C:\Users\vs26364\AppData\Roaming\npm-cache\n\6.5.1\package
+69 verbose lock tar://C:\Users\vs26364\AppData\Roaming\npm-cache\n\6.5.1\package C:\Users\vs26364\AppData\Roaming\npm-cache\0b1bc6f6-oaming-npm-cache-n-6-5-1-package.lock
+70 silly lockFile f0f227ef-ng-npm-cache-n-6-5-1-package-tgz tar://C:\Users\vs26364\AppData\Roaming\npm-cache\n\6.5.1\package.tgz
+71 verbose lock tar://C:\Users\vs26364\AppData\Roaming\npm-cache\n\6.5.1\package.tgz C:\Users\vs26364\AppData\Roaming\npm-cache\f0f227ef-ng-npm-cache-n-6-5-1-package-tgz.lock
+72 silly gunzTarPerm modes [ '755', '644' ]
+73 silly gunzTarPerm extractEntry package.json
+74 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+75 silly gunzTarPerm extractEntry README.md
+76 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+77 silly gunzTarPerm extractEntry bin/n
+78 silly gunzTarPerm modified mode [ 'bin/n', 438, 420 ]
+79 silly lockFile 0b1bc6f6-oaming-npm-cache-n-6-5-1-package tar://C:\Users\vs26364\AppData\Roaming\npm-cache\n\6.5.1\package
+80 silly lockFile 0b1bc6f6-oaming-npm-cache-n-6-5-1-package tar://C:\Users\vs26364\AppData\Roaming\npm-cache\n\6.5.1\package
+81 silly lockFile f0f227ef-ng-npm-cache-n-6-5-1-package-tgz tar://C:\Users\vs26364\AppData\Roaming\npm-cache\n\6.5.1\package.tgz
+82 silly lockFile f0f227ef-ng-npm-cache-n-6-5-1-package-tgz tar://C:\Users\vs26364\AppData\Roaming\npm-cache\n\6.5.1\package.tgz
+83 verbose chmod C:\Users\vs26364\AppData\Roaming\npm-cache\n\6.5.1\package.tgz 644
+84 silly chown skipping for windows C:\Users\vs26364\AppData\Roaming\npm-cache\n\6.5.1\package.tgz
+85 silly lockFile 51d7c0c7-registry-npmjs-org-n-n-6-5-1-tgz https://registry.npmjs.org/n/-/n-6.5.1.tgz
+86 silly lockFile 51d7c0c7-registry-npmjs-org-n-n-6-5-1-tgz https://registry.npmjs.org/n/-/n-6.5.1.tgz
+87 silly lockFile 20e7e262-n-6-5-1 n@6.5.1
+88 silly lockFile 20e7e262-n-6-5-1 n@6.5.1
+89 silly lockFile 6b58d7dc-n n@
+90 silly lockFile 6b58d7dc-n n@
+91 silly resolved [ { name: 'n',
+91 silly resolved     description: 'Interactively Manage All Your Node Versions',
+91 silly resolved     version: '6.5.1',
+91 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+91 silly resolved     homepage: 'https://github.com/tj/n',
+91 silly resolved     bugs: { url: 'https://github.com/tj/n/issues' },
+91 silly resolved     contributors: [ [Object], [Object], [Object] ],
+91 silly resolved     keywords:
+91 silly resolved      [ 'nvm',
+91 silly resolved        'node',
+91 silly resolved        'version',
+91 silly resolved        'manager',
+91 silly resolved        'switcher',
+91 silly resolved        'node',
+91 silly resolved        'binary',
+91 silly resolved        'env' ],
+91 silly resolved     bin: { n: './bin/n' },
+91 silly resolved     files: [ 'bin/n' ],
+91 silly resolved     repository: { type: 'git', url: 'git://github.com/tj/n.git' },
+91 silly resolved     scripts: { test: 'test/bin/run-all-tests' },
+91 silly resolved     devDependencies: { bats: '^1.1.0' },
+91 silly resolved     preferGlobal: true,
+91 silly resolved     os: [ '!win32' ],
+91 silly resolved     engines: { node: '*' },
+91 silly resolved     license: 'MIT',
+91 silly resolved     readme: '# `n` – Interactively Manage Your Node.js Versions\n\n[![npm](https://img.shields.io/npm/dt/n.svg?style=flat-square)](https://www.npmjs.com/package/n)\n[![npm](https://img.shields.io/npm/dm/n.svg?style=flat-square)](https://www.npmjs.com/package/n)\n[![npm](https://img.shields.io/npm/v/n.svg?style=flat-square)](https://www.npmjs.com/package/n)\n[![npm](https://img.shields.io/npm/l/n.svg?style=flat-square)](https://www.npmjs.com/package/n)\n\nNode.js version management: no subshells, no profile setup, no convoluted API, just **simple**.\n\n![usage animation](http://nimit.io/images/n/n.gif)\n\n(Note: `n` is not supported natively on Windows.)\n\n- [`n` – Interactively Manage Your Node.js Versions](#n-%e2%80%93-interactively-manage-your-nodejs-versions)\n    - [Installation](#installation)\n        - [Third Party Installers](#third-party-installers)\n    - [Installing Node Versions](#installing-node-versions)\n    - [Specifying Node Versions](#specifying-node-versions)\n    - [Removing Versions](#removing-versions)\n    - [Using Downloaded Node Versions Without Reinstalling](#using-downloaded-node-versions-without-reinstalling)\n    - [Preserving npm](#preserving-npm)\n    - [Miscellaneous](#miscellaneous)\n    - [Custom Source](#custom-source)\n    - [Custom Architecture](#custom-architecture)\n    - [Optional Environment Variables](#optional-environment-variables)\n    - [How It Works](#how-it-works)\n\n## Installation\n\nSince you probably already have `node`, the easiest way to install `n` is through `npm`:\n\n    npm install -g n\n\nOnce installed, `n` caches `node` versions in subdirectory `n/versions` of the directory specified in environment variable `N_PREFIX`, which defaults to `/usr/local`; and the _active_ `node` version is installed directly in `N_PREFIX`.\n\nTo avoid requiring `sudo` for `n` and `npm` global installs, it is suggested you either install to your home directory using `N_PREFIX`, or take ownership of the system directories:\n\n    # make cache folder (if missing) and take ownership\n    sudo mkdir -p /usr/local/n\n    sudo chown -R $(whoami) /usr/local/n\n    # take ownership of node install destination folders\n    sudo chown -R $(whoami) /usr/local/bin /usr/local/lib /usr/local/include /usr/local/share\n\n-----\n\nIf `npm` is not yet available, one way to bootstrap an install:\n\n    curl -L https://raw.githubusercontent.com/tj/n/master/bin/n -o n\n    bash n lts\n    # Now node and npm are available\n\nAlternatively, you can clone this repo and\n\n    make install\n\nto install `n` to `bin/n` of the directory specified in the environment variable `$PREFIX`, which defaults to `/usr/local` (note that you will likely need to use `sudo`). To install `n` in a custom location (such as `$CUSTOM_LOCATION/bin/n`), run `PREFIX=$CUSTOM_LOCATION make install`.\n\n### Third Party Installers\n\nOn macOS with [Homebrew](https://brew.sh/) you can install the [n formula](https://github.com/Homebrew/homebrew-core/blob/master/Formula/n.rb).\n\n    brew install n\n\nOn Linux and macOS, [n-install](https://github.com/mklement0/n-install) allows installation directly from GitHub; for instance:\n\n    curl -L https://git.io/n-install | bash\n\nn-install sets both `PREFIX` and `N_PREFIX` to `$HOME/n`, installs `n` to `$HOME/n/bin`, modifies the initialization files of supported shells to export `N_PREFIX` and add `$HOME/n/bin` to the `PATH`, and installs the latest LTS `node` version.\n\nAs a result, both `n` itself and all `node` versions it manages are hosted inside a single, optionally configurable directory, which you can later remove with the included `n-uninstall` script. `n-update` updates `n` itself to the latest version. See the [n-install repo](https://github.com/mklement0/n-install) for more details.\n\n## Installing Node Versions\n\nSimply execute `n <version>` to download and install a version of `node`. If `<version>` has already been downloaded, `n` will install from its cache.\n\n    n 10.16.0\n    n lts\n\nExecute `n` on its own to view your downloaded versions, and install the selected version.\n\n    $ n\n\n      node/4.9.1\n    ο node/8.11.3\n      node/10.15.0\n\n    Use up/down arrow keys to select a version, return key to install, d to delete, q to quit\n\n(You can also use `j` and `k` to navigate up or down without using arrows.)\n\nIf the active node version does not change after install, try opening a new shell in case seeing a stale version.\n\n## Specifying Node Versions\n\nThere are a variety of ways of specifying the target node version for `n` commands. Most commands use the latest matching version, and  `n ls-remote` lists multiple matching versions.\n\nNumeric version numbers can be complete or incomplete, with an optional leading `v`.\n\n- `4.9.1`\n- `8`: 8.x.y versions\n- `v6.1`: 6.1.x versions\n\nThere are labels for two especially useful versions:\n\n- `lts`: newest Long Term Support official release\n- `latest`, `current`: newest official release\n  \nThere is a label to read the target version from a file, on the first line:\n\n- `auto`: read version from `.n-node-version` file\n\nThere is support for release streams:\n\n- `argon`, `boron`, `carbon`: codenames for LTS release streams\n\nThe last form is for specifying [other releases](https://nodejs.org/download) available using the name of the remote download folder optionally followed by the complete or incomplete version.\n\n- `chakracore-release/latest`\n- `nightly`\n- `test/v11.0.0-test20180528`\n- `rc/10`\n\n## Removing Versions\n\nRemove some cached versions:\n\n    n rm 0.9.4 v0.10.0\n\nRemoving all cached versions except the current version:\n\n    n prune\n\nRemove the installed node and npm (does not affect the cached version). This can be useful\nto revert to the system version of node (if in a different location), or if you no longer\nwish to use node and npm, or are switching to a different way of managing them.\n\n    n uninstall\n\n## Using Downloaded Node Versions Without Reinstalling\n\nThere are three commands for working directly with your downloaded versions of `node`, without reinstalling.\n\nYou can show the path to the downloaded version:\n\n    $ n which 6.14.3\n    /usr/local/n/versions/6.14.3/bin/node\n\nOr run a downloaded `node` version with the `n run` command:\n\n    n run 8.11.3 --debug some.js\n\nOr execute a command with `PATH` modified so `node` and `npm` will be from the downloaded `node` version.\n(NB: this `npm` will be working with a different and empty global node_modules directory, and you should not install global\nmodules this way.)\n\n    n exec 10 my-script --fast test\n\n## Preserving npm\n\nA `node` install normally includes `npm` as well, but you may wish to preserve an updated `npm` and `npx` leaving them out of the install using `--preserve` (requires rsync):\n\n    $ npm install -g npm@latest\n    ...\n    $ npm --version\n    6.13.7\n    $ n -p 8\n       installed : v8.17.0\n    $ npm --version\n    6.13.7\n\nYou can make this the default by setting `N_PRESERVE_NPM` to a non-empty string.\n\n    export N_PRESERVE_NPM=1\n\nYou can be explicit to get the desired behaviour whatever the environment variable:\n\n    n --preserve nightly\n    n --no-preserve latest\n\n## Miscellaneous\n\nCommand line help can be obtained from `n --help`.\n\nList matching remote versions available for download:\n\n    n ls-remote lts\n    n ls-remote latest\n    n lsr 10\n    n --all lsr\n\nList downloaded versions in cache:\n\n    n ls\n\nDisplay diagnostics to help resolve problems:\n\n    n doctor\n\n## Custom Source\n\nIf you would like to use a different node mirror which has the same layout as the default <https://nodejs.org/dist/>, you can define `N_NODE_MIRROR`.\nThe most common example is users in China can define:\n\n    export N_NODE_MIRROR=https://npm.taobao.org/mirrors/node\n\nThere is also `N_NODE_DOWNLOAD_MIRROR` for a different mirror with same layout as the default <https://nodejs.org/download>\n\n## Custom Architecture\n\nBy default `n` picks the binaries matching your system architecture, e.g. `n` will download 64 bit binaries for a 64 bit system. You can override this by using the `-a` or `--arch` option.\n\nDownload and use latest 32 bit version of `node`:\n\n    n --arch x86 latest\n\n## Optional Environment Variables\n\nThe `n` command downloads and installs to `/usr/local` by default, but you may override this location by defining `N_PREFIX`.\nTo change the location to say `$HOME/.n`, add lines like the following to your shell initialization file:\n\n    export N_PREFIX=$HOME/.n\n    export PATH=$N_PREFIX/bin:$PATH\n\n`n` defaults to using xz compressed node tarballs for the download if it is likely tar on the system supports xz decompression.\nYou can override the automatic choice by setting an environment variable to zero or non-zero:\n\n    export N_USE_XZ=0 # to disable\n    export N_USE_XZ=1 # to enable\n\nYou can be explicit to get the desired behaviour whatever the environment variable:\n\n    n install --use-xz nightly\n    n install --no-use-xz latest\n\nIn brief:\n\n- `N_NODE_MIRROR`: See [Custom source](#custom-source)\n- `N_NODE_DOWNLOAD_MIRROR`: See [Custom source](#custom-source)\n- support for [NO_COLOR](http://no-color.org) and [CLICOLOR=0](https://bixense.com/clicolors) for controlling use of ANSI color codes\n- `N_MAX_REMOTE_MATCHES` to change the default `ls-remote` maximum of 20 matching versions\n- `N_PRESERVE_NPM`: See [Preserving npm](#preserving-npm)\n\n## How It Works\n\n`n` downloads a prebuilt `node` package and installs to a single prefix (e.g. `/usr/local`). This overwrites the previous version. The `bin` folder in this location should be in your `PATH` (e.g. `/usr/local/bin`).\n\nThe downloads are kept in a cache folder to be used for reinstalls. The downloads are also available for limited use using `n which` and `n run` and `n exec`.\n\nThe global `npm` packages are not changed by the install, with the\nexception of `npm` itself which is part of the `node` install.\n',
+91 silly resolved     readmeFilename: 'README.md',
+91 silly resolved     _id: 'n@6.5.1',
+91 silly resolved     dist: { shasum: '6ff48cc71fd1fe373ca4e99818a87184953ffea0' },
+91 silly resolved     _from: 'n@',
+91 silly resolved     _resolved: 'https://registry.npmjs.org/n/-/n-6.5.1.tgz' } ]
+92 info install n@6.5.1 into C:\Users\vs26364\AppData\Roaming\npm
+93 info installOne n@6.5.1
+94 error notsup Unsupported
+94 error notsup Not compatible with your operating system or architecture: n@6.5.1
+94 error notsup Valid OS:    !win32
+94 error notsup Valid Arch:  any
+94 error notsup Actual OS:   win32
+94 error notsup Actual Arch: ia32
+95 error System Windows_NT 6.2.9200
+96 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "n"
+97 error cwd C:\Users\vs26364\coursera-projects\coursera-test
+98 error node -v v0.10.25
+99 error npm -v 1.3.24
+100 error code EBADPLATFORM
+101 verbose exit [ 1, true ]
